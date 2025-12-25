@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>𝐑𝐈𝐓𝐈𝐊 𝐒𝐇𝐀𝐑𝐌𝐀 - PORTFOLIO</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -2;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      z-index: -1;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 20px;
+      height: 100%;
+      overflow-y: auto;
+      gap: 40px;
+      flex-direction: column;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 40px 30px;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.2);
+      text-align: center;
+      max-width: 850px;
+      width: 100%;
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .info-box {
+      text-align: left;
+      margin-top: 25px;
+    }
+
+    .info-box h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 5px;
+    }
+
+    .info-box ul {
+      list-style: none;
+      line-height: 1.8;
+    }
+
+    .info-box ul li::before {
+      content: "› ";
+      color: #00c6ff;
+    }
+
+    .telegram-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 30px;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      border-radius: 50px;
+      color: #fff;
+      font-size: 1.1em;
+      text-decoration: none;
+      box-shadow: 0 0 12px #00c6ff;
+      transition: 0.3s;
+    }
+
+    .telegram-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 22px #00c6ff;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ccc;
+      text-align: center;
+    }
+
+    .twenty {
+      color: #ffffff;
+      font-weight: 700;
+      text-shadow:
+        0 0 5px #00c6ff,
+        0 0 10px #00c6ff,
+        0 0 20px #0072ff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop>
+    <source src="bg.mp4" type="video/mp4">
+  </video>
+  <div class="overlay"></div>
+
+  <!-- Content -->
+  <div class="container">
+
+    <!-- Profile Card -->
+    <div class="card">
+      <img src="file.png" alt="𝐑𝐈𝐓𝐈𝐊 𝐒𝐇𝐀𝐑𝐌𝐀" class="profile-pic">
+      <h1>𝐑𝐈𝐓𝐈𝐊 𝐒𝐇𝐀𝐑𝐌𝐀</h1>
+      <p>
+        Hi! I'm 𝐑𝐈𝐓𝐈𝐊 𝐒𝐇𝐀𝐑𝐌𝐀 —  
+        𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐓𝐈𝐎𝐍𝐀𝐋 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐃𝐄𝐀𝐋𝐄𝐑  
+        & 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌 𝐁𝐀𝐍𝐍𝐄𝐑  
+        <br>@SANSVERA_PAPA_OFF
+      </p>
+
+      <div class="info-box">
+        <h2>𝐀𝐁𝐎𝐔𝐓 𝐌𝐄</h2>
+        <ul>
+          <li><strong>𝐂𝐎𝐔𝐍𝐓𝐑𝐘 :</strong> 𝐈𝐍𝐃𝐈𝐀 🇮🇳</li>
+          <li><strong>𝐒𝐓𝐀𝐓𝐄 :</strong> 𝐌𝐀𝐍𝐃𝐒𝐀𝐔𝐑 (𝐌.𝐏.)</li>
+          <li><strong>𝐀𝐆𝐄 :</strong> 𝟏𝟳 𝐘𝐄𝐀𝐑𝐒</li>
+          <li><strong>𝐒𝐂𝐇𝐎𝐎𝐋 :</strong> 𝐇𝐈𝐆𝐇 𝐒𝐂𝐇𝐎𝐎𝐋 𝐌𝐏 𝟏𝟒 𝐒𝐔𝐓𝐇𝐈</li>
+          <li><strong>𝐇𝐎𝐁𝐁𝐈𝐄𝐒 :</strong> 𝐂𝐎𝐃𝐈𝐍𝐆 • 𝐆𝐀𝐌𝐈𝐍𝐆 • 𝐇𝐀𝐂𝐊𝐈𝐍𝐆</li>
+          <li><strong>𝐃𝐇𝐀𝐑𝐌 :</strong> 𝐇𝐈𝐍𝐃𝐔 𝐁𝐑𝐀𝐇𝐌𝐀𝐍</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h2>𝐒𝐊𝐈𝐋𝐋𝐒</h2>
+        <ul>
+          <li>𝐀𝐃𝐕𝐀𝐍𝐂𝐄𝐃 𝐁𝐎𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓</li>
+          <li>𝐅𝐑𝐎𝐍𝐓𝐄𝐍𝐃 𝐖𝐄𝐁 𝐓𝐄𝐂𝐇𝐍𝐎𝐋𝐎𝐆𝐈𝐄𝐒</li>
+          <li>𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐈𝐎𝐍 & 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓</li>
+          <li>𝐔𝐈 / 𝐔𝐗 𝐃𝐄𝐒𝐈𝐆𝐍</li>
+        </ul>
+      </div>
+
+      <a href="https://t.me/SANSVERA_PAPA_OFF" target="_blank" class="telegram-btn">
+        𝐉𝐎𝐈𝐍 𝐌𝐘 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌
+      </a>
+    </div>
+
+    <!-- Instagram Promotion Card -->
+    <div class="card">
+      <h2>𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍</h2>
+      <ul>
+        <li>1𝐊 𝐕𝐈𝐄𝐖𝐒 – 30 ₹</li>
+        <li>1𝐊 𝐒𝐓𝐎𝐑𝐘 𝐕𝐈𝐄𝐖𝐒 – 30 ₹</li>
+        <li>1𝐊 𝐋𝐈𝐊𝐄𝐒 – 45 ₹</li>
+        <li>100 𝐂𝐎𝐌𝐌𝐄𝐍𝐓𝐒 – 30 ₹</li>
+        <li>1𝐊 𝐅𝐎𝐋𝐋𝐎𝐖𝐄𝐑𝐒 – 300 ₹</li>
+      </ul>
+    </div>
+
+    <!-- Telegram Promotion Card -->
+    <div class="card">
+      <h2>✨ 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 – 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐒𝐄𝐑𝐕𝐈𝐂𝐄 ✨</h2>
+      <ul>
+        <li>🚀 1𝐊 𝐑𝐄𝐀𝐂𝐓𝐈𝐎𝐍𝐒 – ₹30/- only</li>
+        <li>👥 1𝐊 𝐌𝐄𝐌𝐁𝐄𝐑𝐒 – ₹200/- only</li>
+        <li>💬 1𝐊 𝐂𝐎𝐌𝐌𝐄𝐍𝐓𝐒 – ₹400/- only</li>
+        <li>⚡ Fast Delivery</li>
+        <li>✅ Real & Active Users</li>
+        <li>🔒 100% Safe & Trusted</li>
+        <li>📲 Telegram Username: 👉 @PAPA_ME_KH_RHA_THA</li>
+        <li>📞 WhatsApp Contact: 👉 +968 7660 7957</li>
+        <li>Insta ID: <a href="https://www.instagram.com/bexino_babyy?igsh=aG9mYmI0Z2k1eTds" target="_blank" style="color:#00c6ff;">bexino_babyy</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      © 𝐓𝐖𝐎 𝐓𝐇𝐎𝐔𝐒𝐀𝐍𝐃 <span class="twenty">𝐓𝐖𝐄𝐍𝐓𝐘</span> 𝐅𝐈𝐕𝐄 𝐑𝐈𝐓𝐈𝐊 𝐒𝐇𝐀𝐑𝐌𝐀.
+      <br>
+      <strong>𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 :</strong> @SANSVERA_PAPA_OFF
+    </footer>
+
+  </div>
+</body>
+</html>
